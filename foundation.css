@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 178, 219);
+}
+.container{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    display: block;
+    
+}
+.midig{
+    display: flex;
+    gap: 10px;
+}
+.midig img {
+    width: 38px;
+    height: 41px;
+    border-radius: 7px;
+}
+span{
+    color: gray;
+    font-size: 19px;
+  }
+#Library{
+    background-color: rgb(223, 178, 219);
+    border: 0; 
+    color: gray;
+    margin-right: 15px;
+    text-decoration-line: none;
+}
+
+nav{
+    
+    justify-content: space-between;
+    display: flex;
+    margin-top: 30px;
+   
+    
+}
+
+.bidix a{
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    color: gray;
+    margin-right: 5px;
+}
+
+#Active{
+    color: black;
+    font-weight: bold;
+}
+
+button{
+    background-color: blue;
+    border: 0px;
+    color: white;
+    text-align: center;
+    padding: 10px 1.3rem;
+}
+#kale{
+    background-color: white;
+    border: 0px;
+    color: blue;
+    text-align: center;
+    padding: 10px 1.3rem;
+}
+.main{
+    margin-top: 65px;
+   
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+p{ 
+    margin-top: 30px;
+    color: black;
+    text-align: justify;
+     
+}
+.bhoose{
+    margin-top: 30px;
+    gap: 20px;
+}
+.sawir{
+  
+}
+
+.sawir img{
+    width: 620px;
+    height:450px;
+    object-fit: cover;
+    margin-left: 490px;
+    margin-top: -17rem;
+   
+}
+@media (max-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+       .container{
+        flex-direction: column;
+        width: 90%;
+        height: 700px;
+       }
+       .main{
+        flex-direction: column;
+        margin-top: 10px;
+        
+       }
+
+
+
+
+
+      
+       .sawir img {
+        width: 400px;
+        height: 270px;
+        margin-left: 0px;
+        margin-bottom: -10px;
+        object-fit: cover;
+       }
+       .sawir{
+        margin-top: -150px;
+       }
+      p{
+        margin-top: 10px;
+        
+      }
+       a{
+        display: none;
+       }
+       .bidix {
+        display: flex;
+       }
+       bhoose{
+        
+       }
+       .nuuc{
+        margin-top: 300px;
+       }
+      .kush{
+        padding: 5px 1rem;
+      }
+      #Library{
+        padding: 5px 1rem;
+      }
+      span{
+        color: gray;
+        font-size: 14px;
+      }
+    }
